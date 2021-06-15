@@ -8180,6 +8180,13 @@ h1, h2, h3, h4, h5,
   color: white;
   font-weight: 400; }
 
+.text-des{
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 18px;
+}
+
 .text-primary {
   color: #ffbb00 !important; }
 
@@ -8960,9 +8967,10 @@ h1, h2, h3, h4, h5,
     transition: all 0.3s ease; }
     @media (max-width: 767.98px) {
       .project .overlay {
-        opacity: .2; } }
+        opacity: .3;
+        background: #000;} }
   .project .text {
-    max-width: 80%;
+    max-width: 90%;
     z-index: 1;
     opacity: 0;
     -moz-transition: all 0.3s ease;
@@ -8971,7 +8979,8 @@ h1, h2, h3, h4, h5,
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
     .project .text h3 {
-      font-size: 20px; }
+      font-size: 24px;
+      font-weight: 500;}
       .project .text h3 a {
         color: #fff; }
     .project .text span {
@@ -8986,7 +8995,10 @@ h1, h2, h3, h4, h5,
         .project .text span {
           color: rgba(255, 255, 255, 0.8); } }
   .project:hover .overlay, .project:focus .overlay {
-    opacity: .9; }
+    opacity: .9;}
+    @media (max-width: 767.98px) {
+        .project:hover .overlay, .project:focus .overlay {
+    opacity: .7;}}
   .project:hover .text, .project:focus .text {
     opacity: 1; }
 
@@ -9511,6 +9523,17 @@ textarea.form-control {
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 13px; }
+
+.tagcloud-2 a {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 4px 12px;
+  margin-top: 20px;
+  margin-right: 6px;
+  border-radius: 4px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  font-size: 11px; }
 
 .comment-form-wrap {
   clear: both; }
