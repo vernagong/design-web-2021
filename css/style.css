@@ -9046,6 +9046,11 @@ textarea.form-control {
   opacity: 0;
   visibility: hidden; }
 
+.ftco-process {
+  opacity: 0;
+  visibility: hidden;
+  padding-bottom: 24px; }
+
 .bg-primary {
   background: #ffbb00 !important; }
 
@@ -9329,7 +9334,8 @@ textarea.form-control {
 
 .img,
 .blog-img,
-.user-img {
+.user-img,
+.senserio-img{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -9408,6 +9414,14 @@ textarea.form-control {
   font-size: 20px;
   padding-top: 16px;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.mb-b {
+  font-size: 14px;
+  padding-top: 20px;
+  margin: 0px 0px 8px 0px; 
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.5);    
 }
 
 .ftco-counter .text strong.number {
@@ -9595,6 +9609,12 @@ textarea.form-control {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%; }
+
+.block-21 .senserio-img {
+  width: 100%;
+  display: block;
+  padding: 10px 0px 24px;
+  margin: auto;}
 
 .block-21 .text {
   width: calc(100% - 100px); }
