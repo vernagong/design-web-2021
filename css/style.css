@@ -6805,6 +6805,10 @@ button.bg-dark:focus {
 .py-5 {
   padding-bottom: 1.5rem !important; }
 
+.pb-s5 {
+  padding-top: 2.5rem !important;
+  padding-bottom: 1.5rem !important; }
+
 .pl-5,
 .px-5 {
   padding-left: 3rem !important; }
@@ -9458,6 +9462,15 @@ textarea.form-control {
   color: rgba(255, 255, 255, 0.5);    
 }
 
+.mb-des {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin: 0px 0px 28px 0px; 
+  max-width: 800px;
+}
+
 .ftco-counter .text strong.number {
   font-weight: 700;
   font-size: 30px;
@@ -9473,6 +9486,19 @@ textarea.form-control {
   display: block;
   font-size: 14px;
   color: #ffbb00; 
+}
+
+.number-2 {
+  font-weight: 700;
+  font-size: 13px;
+  color: #ffbb00;
+  padding: 4px 10px;
+  border: 1px solid #ffbb00;
+  border-radius: 50px;
+}
+
+.p-h{
+  padding-top: 10px;
 }
 
 @media (max-width: 767.98px) {
