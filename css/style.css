@@ -6667,6 +6667,13 @@ button.bg-dark:focus {
   font-weight: 600;
 }
 
+.sub-t2 {
+  margin-top: 0.8rem !important;    
+  margin-bottom: 0rem !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .ml-4,
 .mx-4 {
   margin-left: 1.5rem !important; }
@@ -9652,6 +9659,11 @@ textarea.form-control {
     .contact-section .contact-form .btn-primary {
       display: block;
       width: 100%; } }
+
+.icon-t{
+    font-size: 32px;
+    color: #fff;
+}
 
 .block-9 .form-control {
   outline: none !important;

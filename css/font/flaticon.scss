@@ -2,11 +2,11 @@ $flaticon-font: "flaticon";
 
 @font-face {
     font-family: $flaticon-font;
-    src: url("./flaticon.ttf?662e983bc9c0189a97e77075611e9d85") format("truetype"),
-url("./flaticon.woff?662e983bc9c0189a97e77075611e9d85") format("woff"),
-url("./flaticon.woff2?662e983bc9c0189a97e77075611e9d85") format("woff2"),
-url("./flaticon.eot?662e983bc9c0189a97e77075611e9d85#iefix") format("embedded-opentype"),
-url("./flaticon.svg?662e983bc9c0189a97e77075611e9d85#flaticon") format("svg");
+    src: url("./flaticon.ttf?bf2a5ee6e212b3a3b7c412c220ab1926") format("truetype"),
+url("./flaticon.woff?bf2a5ee6e212b3a3b7c412c220ab1926") format("woff"),
+url("./flaticon.woff2?bf2a5ee6e212b3a3b7c412c220ab1926") format("woff2"),
+url("./flaticon.eot?bf2a5ee6e212b3a3b7c412c220ab1926#iefix") format("embedded-opentype"),
+url("./flaticon.svg?bf2a5ee6e212b3a3b7c412c220ab1926#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -21,29 +21,37 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 
 $flaticon-map: (
-    "strategy": "\f101",
-    "prototyping": "\f102",
-    "idea": "\f103",
-    "human-resources": "\f104",
+    "browser": "\f101",
+    "analytics": "\f102",
+    "human-resources": "\f103",
+    "prototyping": "\f104",
     "slow-motion": "\f105",
     "design": "\f106",
+    "diagram": "\f107",
+    "idea": "\f108",
 );
 
-.flaticon-strategy:before {
-    content: map-get($flaticon-map, "strategy");
+.flaticon-browser:before {
+    content: map-get($flaticon-map, "browser");
 }
-.flaticon-prototyping:before {
-    content: map-get($flaticon-map, "prototyping");
-}
-.flaticon-idea:before {
-    content: map-get($flaticon-map, "idea");
+.flaticon-analytics:before {
+    content: map-get($flaticon-map, "analytics");
 }
 .flaticon-human-resources:before {
     content: map-get($flaticon-map, "human-resources");
+}
+.flaticon-prototyping:before {
+    content: map-get($flaticon-map, "prototyping");
 }
 .flaticon-slow-motion:before {
     content: map-get($flaticon-map, "slow-motion");
 }
 .flaticon-design:before {
     content: map-get($flaticon-map, "design");
+}
+.flaticon-diagram:before {
+    content: map-get($flaticon-map, "diagram");
+}
+.flaticon-idea:before {
+    content: map-get($flaticon-map, "idea");
 }
