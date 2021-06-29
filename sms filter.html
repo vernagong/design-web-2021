@@ -94,7 +94,7 @@
             <div class="block-18">
               <div class="text">
                 <p>Responsibility</p>
-                <span>UX & UI design, Usability Test</span>
+                <span>UX & UI design, User Survey</span>
               </div>
             </div>
           </div>
@@ -153,14 +153,14 @@
               <div class="col-md-8 heading-section ftco-animate">
                 <div>
                     <div class="mb-b">Objective</div>
-                    <p>Our company expected to release a broader "category" feature for Whoscall app. The goal is to make the SMS message list cleaner than its previous,  chronological list.<br>At the same time, our technical team trained a ML model for text recognition, hoping to apply this technology to Whoscall app. We decided to apply this technique to this "category" feature.</p>
+                    <p>Our company expected to release a "category" feature for Whoscall app to make the SMS message list cleaner than its previous,  chronological list.<br>At the same time, our technical team trained a ML model for text recognition, hoping to apply this technology to Whoscall app. We decided to apply this technique to this feature.</p>
                 </div>
                 <div class="block-21 d-flex">
                     <img class="senserio-img" src="images/project/filter/sms%20img.jpg"  alt="SMS Photos" />
                 </div>
                 <div>
                     <div class="mb-b">Timeline</div>
-                    <p>We started the experiment with the MVP product and delivered the results to the business team within six months. To speed up project schedule, we decided to experiment in 2 stages - First identify only spam, and then move to multiple categories in the second stage.</p>
+                    <p>We started the experiment with the MVP product and delivered to the business team within six months. We decided to experiment in 2 stages - First identify only spam, and then move to multiple categories in the second stage.</p>
                 </div>
               </div>
             </div>
@@ -252,12 +252,12 @@
     	</div>
     	
     	<div class="container">
-        <div class="row pb-5">
+        <div class="row pb-s5">
           <div class="col-md-2 ftco-animate">
             <h5 class="project-t">Goal & Hypothesis</h5>
           </div>
           <div class="col-md-10 ftco-animate">
-            <p>We wanted to make a product that can actually be launched for experiments and can be flexibly expanded for future needs. Our team discussed the goals and hypotheses.</p>
+            <p>We wanted to make a product that can actually be launched for experiments and can be flexibly expanded for future needs. Our team discussed the goals and hypotheses. After defining these, we ideated the features and arranged the priority.</p>
             <div>
                 <div class="mb-b">Goal</div>
                 <h3 class="project-g">Help users filter spam and malicious SMS messages.</h3>
@@ -278,6 +278,12 @@
                     </div>
                 </div>
                 </div>
+                <div>
+                <div class="block-21 d-flex">
+                    <img class="senserio-img" src="images/project/filter/features.png"  alt="SMS Features" />
+                </div>
+                <p class="mb-des">we used the user journey map to ideated the feature. Then arranged the stages and backlogs according to the importance.</p>
+            </div>
             </div>
             </div>
         </div>
@@ -291,7 +297,7 @@
             <h5 class="project-t">Usabiltiy Testing</h5>
           </div>
           <div class="col-md-10 ftco-animate">
-            <p>After completing the design of first stage, we spent 3 days completing the usability test from 5 people by prototyping to knew how users perceive our product.</p>
+            <p>We spent 3 days completing the usability test from 5 people by prototyping to knew how users perceive our product.</p>
                 <div>
                     <div class="mb-b">Testing Goals and What We Learned</div>
                     <p>- The user's perception of classification.<br>- When the list arrangement and usage method were changed, can users understand and used it normally?</p>
@@ -310,26 +316,64 @@
     	</div>
     </section>
     
-    <section class="ftco-section-2 ftco-no-count" id="project-section">
+    <section class="ftco-section-2 ftco-no-count" id="project-section-stageMVP">
     	<div class="container">
         <div class="row pb-s5">
           <div class="col-md-2 ftco-animate">
-            <h5 class="project-t">Stage 1 Experiment</h5>
+            <h5 class="project-t">Stage 1 MVP</h5>
           </div>
           <div class="col-md-10 ftco-animate">
-            <p>After completing the design of first stage, we spent 3 days completing the usability test from 5 people by prototyping to knew how users perceive our product.</p>
+            <p>After several rounds of discussions, we determined what the MVP delivered in the first stage. This function was called "SMS Assistant", which mainly detects malicious messages and warns users.</p>
                 <div>
-                    <div class="mb-b">Testing Goals and What We Learned</div>
-                    <p>- The user's perception of classification.<br>- When the list arrangement and usage method were changed, can users understand and used it normally?</p>
                     <div class="block-21 d-flex">
-                    <img class="senserio-img" src="images/project/filter/usability.png"  alt="Usability test"/>
+                    <img class="senserio-img" src="images/project/filter/stage_1_preview.png"  alt="Usability test"/>
                     </div>
-                    <p class="mb-des">We collected the insights during the testing and then colored the cognitively incorrect and uncertain content to help the team better understand the user's feelings.</p>
+                        <h5 class="sub-t"><br>1. Automatically help identify spam SMS.</h5>
+                        <p>This new experience starts with the dialog of receiving SMS messages. When a user receives a message, it will be recognized through our ML model and warns the user when it is recognized as spam. We have defined the criteria for spam: fraudulent, malicious, or loan messages.</p>
+                        <div class="block-21 d-flex">
+                        <img class="senserio-img" src="images/project/filter/stage_1_dilaog.png"  alt="Usability test"/>
+                        </div>
+                        <p class="mb-des">Because the previous function has designed the dialog style of the link warning, we decided to use the existing components at this stage.</p>
+                    
+                        <h5 class="sub-t"><br>2. More clearer SMS list.</h5>
+                        <p>The messages will be divided into general messages or spam messages in the SMS logs, so users can focus on useful messages and avoid fraud.<br>We designed categories to be presented in tags, which can be more flexible in the future.</p>
+                        <div class="block-21 d-flex">
+                        <img class="senserio-img" src="images/project/filter/stage_1_logs.png"  alt="Usability test"/>
+                        </div>
+                        <p class="mb-des">We have also designed a moving function that allows users to move out the messages that they think it is not spam. This also help to optimize the accuracy of our ML model.</p>
                 </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+    
+    <section class="ftco-section-2 ftco-no-count" id="project-section-survey">
+    	<div class="container">
+        <div class="row pb-s5">
+          <div class="col-md-2 ftco-animate">
+            <h5 class="project-t">Questionnaire Survey & Tracking</h5>
+          </div>
+          <div class="col-md-10 ftco-animate">
+            <p>After several rounds of discussions, we determined what the MVP delivered in the first stage. This function was called "SMS Assistant", which mainly detects malicious messages and warns users.</p>
                 <div>
                     <div class="block-21 d-flex">
-                    <img class="senserio-img" src="images/project/filter/usability_results.png"  alt="SMS UI" />
+                    <img class="senserio-img" src="images/project/filter/stage_1_preview.png"  alt="Usability test"/>
                     </div>
+                    <div class="mb-b">Key Features</div>
+                    
+                        <h5 class="sub-t"><br>1. Automatically help identify spam SMS.</h5>
+                        <p>This new experience starts with the dialog of receiving SMS messages. When a user receives a message, it will be recognized through our ML model and warns the user when it is recognized as spam. We have defined the criteria for spam: fraudulent, malicious, or loan messages.</p>
+                        <div class="block-21 d-flex">
+                        <img class="senserio-img" src="images/project/filter/stage_1_dilaog.png"  alt="Usability test"/>
+                        </div>
+                        <p class="mb-des">Because the previous function has designed the dialog style of the link warning, we decided to use the existing components at this stage.</p>
+                    
+                        <h5 class="sub-t"><br>2. More clearer SMS list.</h5>
+                        <p>The messages will be divided into general messages or spam messages in the SMS logs, so users can focus on useful messages and avoid fraud.<br>We designed categories to be presented in tags, which can be more flexible in the future.</p>
+                        <div class="block-21 d-flex">
+                        <img class="senserio-img" src="images/project/filter/stage_1_logs.png"  alt="Usability test"/>
+                        </div>
+                        <p class="mb-des">We have also designed a moving function that allows users to move out the messages that they think it is not spam. This also help to optimize the accuracy of our ML model.</p>
                 </div>
           </div>
         </div>
