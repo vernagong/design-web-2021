@@ -5541,6 +5541,12 @@ button.bg-dark:focus {
   display: -ms-flexbox !important;
   display: flex !important; }
 
+.d-flex-c {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  margin: auto;}
+
 .d-inline-flex {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
