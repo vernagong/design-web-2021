@@ -9004,7 +9004,7 @@ h1, h2, h3, h4, h5,
     transition: all 0.3s ease; }
     @media (max-width: 767.98px) {
       .project .overlay {
-        opacity: .3;
+        opacity: .6;
         background: #000;} }
   .project .text {
     max-width: 90%;
