@@ -352,7 +352,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+  border-top: 1px solid #1f1f1f; }
 
 small,
 .small {
@@ -5547,6 +5547,12 @@ button.bg-dark:focus {
   display: flex !important;
   margin: auto;}
 
+.card-n{
+    background:#191919;
+    text-align: left;
+    padding: 24px 32px;
+    border-radius: 4px; }
+
 .d-inline-flex {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
@@ -8954,6 +8960,26 @@ h1, h2, h3, h4, h5,
     font-size: 20px;
     font-weight: 400;
     color: #fff; }
+
+
+.project-c {
+  width: 100%;
+  height: 285px;
+  border-radius: 4px;
+  position: relative;
+  z-index: 0; }
+
+.title-card {
+  flex-direction: row;
+  font-weight: 800;
+  text-align: center; }
+
+.tips-card {
+  color: #ffbb00;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 24px; }
 
 @media (min-width: 992px) {
   .margin-top {
